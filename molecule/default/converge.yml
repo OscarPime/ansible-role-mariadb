@@ -34,6 +34,7 @@
         password: 'tytsHeab=3'
         priv: 'app2db.*:ALL'
         host: '172.17.%'
+        
   tasks:
-   - name: This fails because I'm inside a play already
+   - name: Import a playbook
      import_playbook: ../../tasks/main.yml
