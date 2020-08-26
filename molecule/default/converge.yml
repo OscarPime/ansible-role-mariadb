@@ -36,4 +36,4 @@
         host: '172.17.%'
   tasks:
   - name: This fails because I'm inside a play already
-    import_playbook: ../../tasks/main.yaml
+    import_playbook: ../../tasks/main.yml
