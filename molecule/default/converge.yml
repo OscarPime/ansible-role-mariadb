@@ -37,4 +37,4 @@
         
   tasks:
    - name: Import a playbook
-     import_playbook: ../../tasks/main.yml
+     import_tasks: ../../tasks/main.yml
