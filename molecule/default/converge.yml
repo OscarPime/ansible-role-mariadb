@@ -34,5 +34,6 @@
         password: 'tytsHeab=3'
         priv: 'app2db.*:ALL'
         host: '172.17.%'
-  roles:
-    - role: bertvv.mariadb
+  tasks:
+    - name: This fails because I'm inside a play already
+      import_playbook: ../../tasks/main.yaml
